@@ -27,6 +27,7 @@ def network_id(ip, mask):
         iterator += 1
     return id
 
+
 """
 broadcast is calculated using a BINARY OR on the network id and the wildcard
 each bit of the output is 0 ONLY IF the corresponding bit of x and y is 0, else its 1
